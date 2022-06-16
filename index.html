@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <video id="background-video" autoplay loop muted poster='/assets/background_1.mp4'> 
+        <source src='/assets/background_1.mp4' type="video/mp4"> 
+        </video>
+    <div class="wrapper">
+        <div class="scoreboard">
+            <div class="logo">
+                <img src='/assets/logo_1.png' />
+
+            </div>
+            <div class="title">
+                <img src='/assets/title_3.png' />
+            </div>
+            <div class="score">
+                <p>SCORE</p>
+                <h1> 0 </h1>
+            </div>
+        </div>
+        <div class="hands">
+            <div class="hand paper">
+                <img src="/assets/Paper_1.png" onclick="pickUserHand('paper')" />
+            </div>
+            <div class="hand scissors">
+                <img src="/assets/Scissors_1.png" onclick="pickUserHand('scissors')" />
+            </div>
+            <div class="hand rock">
+                <img src="/assets/Stone_1.png" onclick="pickUserHand('rock')" />
+            </div>
+        </div>
+        <div class="contest">
+            <div class="userhand">
+                <h1>YOU PICKED</h1>
+                <div class="handImageContainer">
+                    <img id="userPickImage" src="/assets/Paper_1.png">
+                </div>
+            </div>
+            <div class="referee">
+                <div class="decision">
+                    <h1> YOU WIN! </h1>
+                </div>
+                <div class="newGame" onclick="restartGame()">PLAY AGAIN</div>
+            </div>
+            <div class="computerhand">
+                <h1>THE OPPONENT PICKED</h1>
+                <div class="handImageContainer">
+                    <img id="computerPickImage" src='/assets/Paper_1.png' />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
