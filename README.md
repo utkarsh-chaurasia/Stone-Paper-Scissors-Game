@@ -1,5 +1,5 @@
 # Stone-Paper-Scissors-Game
-INTRODUCTION
+# INTRODUCTION
 The first known mention of the game of Rock Paper Scissors was in the book 'Wuzazu'. This book was written by the Chinese Ming-dynasty writer Xie Zhaozhi. They wrote that the game dated back to the time of the Chinese Han dynasty (206 BC – 220 AD). In the book, the game was called shoushiling.
 
 
