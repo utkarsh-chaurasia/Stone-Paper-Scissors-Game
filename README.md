@@ -12,8 +12,6 @@ Stone Paper Scissors (also known by other orderings of the three items, with "St
 
 A simultaneous, zero-sum game, it has three possible outcomes: a draw, a win or a loss. A player who decides to play rock will beat another player who has chosen scissors ("stone crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers stone"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie. The type of game originated in China and spread with increased contact with East Asia, while developing different variants in signs over time.
 
-The game is highly useful in resolving trivial disputes amongst children. If a parent or caregiver suggests a game of Stone Paper Scissors, both children will usually spontaneously agree to it, as it appeals to their competitive streaks. After a winner is found, the loser may attempt to resume the argument (claiming to not care about the RPS game, and that they are in the right regardless of its outcome), but will usually accept the response by both the caregiver and the other child that "you agreed to Stone Paper Scissors and you lost, so accept it". Additionally, if a child refuses to enter into a RPS battle to resolve a dispute, it can be an indication to the caregiver that their concern is of a more serious nature.
-
 # Rock-Paper-Scissors Game Web-D Project
 The object of the Stone-Paper-Scissor web-d project is to build a game for a single player that plays with a computer, anywhere, and anytime. This project is base on the rules that:
 
