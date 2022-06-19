@@ -79,7 +79,7 @@ HTML elements
 }
 
 .hands {
-    background-image: url("../assets/triangle.png");
+    background-image: url("assets/triangle.png");
     background-position: center;
     background-repeat: no-repeat;
     visibility: visible;
